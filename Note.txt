@@ -21,3 +21,13 @@ git merge origin/main
 
 brew install python@3.11
 python3.11 --version
+
+brew install uv
+uv venv 
+source .venv/bin/activate
+deactivate
+
+uv pip install google-genai
+uv pip uninstall google-genai
+
+uv pip freeze > requirements.txt
