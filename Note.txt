@@ -31,3 +31,9 @@ uv pip install google-genai
 uv pip uninstall google-genai
 
 uv pip freeze > requirements.txt
+uv pip install -r requirements.txt
+
+
+brew install node
+npm install -g @google/gemini-cli
+
